@@ -6,16 +6,7 @@
         <title>To Do List</title>
     </head>
     <body>
-        <header>
-            <ul>
-                <li class="nav">
-                    <a href="/"><i class="fa-solid fa-calendar-days"></i> Today</a>
-                </li>
-                <li class="nav">
-                    <a href="/work"><i class="fa-solid fa-briefcase"></i> Work</a>
-                </li>
-            </ul>
-        </header>
+        <%- include("partails/header.ejs") %>
         <main>
             <div class="container" bis_skin_checked="1">
                 <div class="heading" bis_skin_checked="1">
@@ -40,5 +31,5 @@
 
 
     </body>   
-
+    <%- include("partails/footer.ejs") %>
 </html>
